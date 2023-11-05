@@ -1,0 +1,39 @@
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+@import '../../node_modules/bootstrap-icons/font/bootstrap-icons.css';
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap');
+@import 'variables';
+
+body {
+    font-family: 'Ubuntu';
+    background: whitesmoke;
+    color: #333;
+    text-align: center;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 300;
+}
+
+.homepage {
+    margin: 5rem 25%;
+    padding: 3rem;
+    width: 50%;
+    background: white;
+    border: 2px solid #d4d4d4;
+    border-radius: .5rem;
+    box-shadow: 0 .25rem .4rem #ddd;
+
+    h1 {
+        font-size: 3rem;
+        color: $chucknorris;
+        text-shadow: 0 1px 2px #444;
+    }
+
+    img.avatar {
+        margin: 3rem 2rem;
+        max-width: 94%;
+        border-radius: 50%;
+        border: .5rem solid white;
+        box-shadow: 0 .25rem .5rem #bdbdbd;
+    }
+
+}
