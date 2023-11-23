@@ -36,7 +36,4 @@ module.exports = {
       template: "./public/index.html",
     }),
   ],
-  optimization: {
-    minimizer: [new UglifyJsPlugin()],
-  },
 };

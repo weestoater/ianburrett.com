@@ -1,6 +1,6 @@
 import React from "react";
 
-import burtImg from "../assets/img/burt.png";
+import burtImg from "../assets/img/ianburrett.png";
 
 const Home = () => {
   document.title = "Home - ianburrett.com";
