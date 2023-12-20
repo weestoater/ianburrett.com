@@ -12,7 +12,7 @@ import Header from "./components/header";
 const App = () => {
   return (
     <HashRouter>
-      <Header />
+      {/* <Header /> */}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />

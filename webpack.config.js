@@ -8,6 +8,7 @@ module.exports = {
   devtool: "inline-source-map",
   devServer: {
     static: "./build",
+    port: 9000,
     hot: true,
   },
   output: {

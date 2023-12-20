@@ -1,5 +1,4 @@
 import React from "react";
-
 import burtImg from "../assets/img/ianburrett.png";
 
 const Home = () => {

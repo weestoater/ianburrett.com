@@ -39,9 +39,7 @@ header {
                 border-radius: .25rem;
 
                 &:hover,&:focus {
-                    background: $chucknorris;
                     border: 1px solid $vscodebg;
-                    box-shadow: 0 0 .25rem #f90;
                 }
             }
         }
